@@ -41,9 +41,7 @@ https://youtu.be/vIPuYryeM0Q
 
 ## Screenshots
 
-[](image.png)
-
-C:\Users\Antonio DeLeo\bootcamp\SVG-LogoMaker\Develop\image.png
+![SVG-LogoMaker]C:\Users\Antonio DeLeo\bootcamp\SVG-LogoMaker\Develop\image.png
 
 ## Technologies Used
 
