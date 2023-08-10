@@ -1,4 +1,4 @@
-# SVG-Logo-Maker
+# SVG-LogoMaker
 Week-10 Challenge
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -16,20 +16,37 @@ Week-10 Challenge
 
 ## Description
 
-This application was built as a way to allow freelance web developers to create simple logos for their clients and projects so that they can forego paying a graphic designer. It utilizes inquirer to prompt the user within the command line for how they would like their logo to look (ie. what text they would like their logo to display (up to 3 characters in length), the color of that text, the shape of their logo (triangle, square, or circle) and the color of that shape.) Once the user answers all prompts, then an SVG file is written using their selections to generate a logo. This application also is my first implementation of unit testing within my applications. It utilizes one test suite, with three tests, all which are simply testing that the code base is delivering back correct shapes and colors. Building this application served as yet another look at what back-end developers can do without the use of a UI (user interface). I learned the value of unit testing and how this simple example used within my application can be expanded upon for much larger code bases and it's necessity when many developers are all contributing to the same project. Lastly, I have noticed myself starting to think more and more like a developer, adding some minor error handling with the first user prompt: not allowing for a logo to be generated when more than three characters are entered by the user. Future development on this application could start with adding on more error handling (SVG colors), additional unit testing, and adding more polygons and font styles for users to choose from.   
+  AS a freelance web developer
+I WANT to generate a simple logo for my projects
+SO THAT I don't have to pay a graphic designer
+
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for text
+THEN I can enter up to three characters
+WHEN I am prompted for the text color
+THEN I can enter a color keyword (OR a hexadecimal number)
+WHEN I am prompted for a shape
+THEN I am presented with a list of shapes to choose from: circle, triangle, and square
+WHEN I am prompted for the shape's color
+THEN I can enter a color keyword (OR a hexadecimal number)
+WHEN I have entered input for all the prompts
+THEN an SVG file is created named `logo.svg`
+AND the output text "Generated logo.svg" is printed in the command line
+WHEN I open the `logo.svg` file in a browser
+THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Live Screen Recording of Application Functionality
 
-
+https://youtu.be/vIPuYryeM0Q
 
 ## Screenshots
 
-Logo Generation
-
-
-
-Examples of Generated Logos
-
-
+![Alt text](image.png)
 
 ## Technologies Used
+
+Inquirer, Jest, JavaScript, and Node.Js
+
+## License
+
+I used the MIT license for Repo [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
