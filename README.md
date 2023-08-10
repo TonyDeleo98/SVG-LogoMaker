@@ -9,8 +9,6 @@ Week-10 Challenge
 
  * [Live-Screen-Recording-of-Application-Functionality](#live-screen-recording-of-application-functionality)
 
- * [Screenshots](#screenshots)
-
  * [Technologies-Used](#technologies-used)
 
 
@@ -38,10 +36,6 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ## Live Screen Recording of Application Functionality
 
 https://youtu.be/vIPuYryeM0Q
-
-## Screenshots
-
-![SVG-LogoMaker]C:\Users\Antonio DeLeo\bootcamp\SVG-LogoMaker\Develop\image.png
 
 ## Technologies Used
 
